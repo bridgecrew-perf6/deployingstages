@@ -11,4 +11,4 @@ stages:
 Build:
   tasks:
     - script:
-      - echo 'welcome file list!'
+      - echo 'newdata'
