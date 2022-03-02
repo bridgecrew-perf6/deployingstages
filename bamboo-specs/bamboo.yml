@@ -6,11 +6,9 @@ plan:
   name: Build the rocket
 stages:
   - Build hull:
-  - repositories
+    - Build
 
-repositories:
-- ROCKET repo:
-    type: git
-    url: "https://github.com/chandrasekar160598/mavenprojectwar.git"
-    branch: master 
-  
+Build:
+  tasks:
+    - script:
+      - echo 'newbamboo specs'
