@@ -6,7 +6,7 @@ plan:
   name: Build the rocket
 stages:
   - Build hull:
-    - repositories
+  - repositories
 
 repositories:
 - ROCKET repo:
