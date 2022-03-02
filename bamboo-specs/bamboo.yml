@@ -7,9 +7,15 @@ plan:
 stages:
   - Build hull:
     - Build
-
+    
 Build:
-  -ROCKET repo:
-     type :git
-     url :"https://github.com/chandrasekar160598/mavenprojectwar.git"
-     branch: master
+  tasks:
+    - script:
+      - echo 'welcome file tags'
+      
+    - type: CLEAN
+      description: Clean working directory
+    - type: VCS
+      description: Git Checkout
+      defaultRepository: true
+
