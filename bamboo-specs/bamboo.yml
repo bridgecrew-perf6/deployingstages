@@ -11,4 +11,5 @@ stages:
 Build:
   tasks:
     - script:
-      - sh "https://github.com/chandrasekar160598/mavenprojectwar.git"
+      - echo 'welcomefile tags'
+      - echo 'newfilelists  tags' 
