@@ -9,6 +9,7 @@ stages:
     - Build
 
 Build:
-  tasks:
-    - script:
-      -  sh "git clone https://github.com/chandrasekar160598/mavenprojectwar.git"
+  -ROCKET repo:
+     type :git
+     url :"https://github.com/chandrasekar160598/mavenprojectwar.git"
+     branch: master
