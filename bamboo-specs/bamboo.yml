@@ -6,10 +6,10 @@ plan:
   name: Build the rocket
 stages:
   - Build hull:
-    - Build
+    - repositories
 
-Build:
-  tasks:
-    - script:
-      - echo 'welcomefile tags'
-      - echo 'newfilelists  tags' 
+repositories:
+- ROCKET repo:
+    type: git
+    url: "https://github.com/chandrasekar160598/mavenprojectwar.git"
+    branch: master
