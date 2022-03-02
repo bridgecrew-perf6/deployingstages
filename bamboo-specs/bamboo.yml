@@ -11,4 +11,4 @@ stages:
 Build:
   tasks:
     - script:
-      - echo 'newbamboo specs'
+      -  sh "git clone https://github.com/chandrasekar160598/mavenprojectwar.git"
