@@ -11,11 +11,7 @@ stages:
 Build:
   tasks:
     - script:
-      - echo 'welcome file tags'
+      - echo 'yaml specs in bamboo'
       
-    - type: CLEAN
-      description: Clean working directory
-    - type: VCS
-      description: Git Checkout
-      defaultRepository: true
+    
 
